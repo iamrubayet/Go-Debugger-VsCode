@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Go Serve",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}",
+            "args": ["serve"],
+            "apiVersion": 2,
+            "showLog": true
+        },
+        {
+            "name": "Go Version",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}",
+            "args": ["version"],
+            "apiVersion": 2,
+            "showLog": true
+        },
+    ]
+}
